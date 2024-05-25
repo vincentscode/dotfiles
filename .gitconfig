@@ -1,0 +1,10 @@
+[user]
+	email = vincentscode@gmail.com
+	name = Vincent Schmandt
+	signingkey = FA5B5F9C571C0669
+[init]
+	defaultBranch = main
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true

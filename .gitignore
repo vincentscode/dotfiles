@@ -1,8 +1,6 @@
-# ignore everything
-*
-
-# generally include files starting with a dot
-!.*
+# ignore regular folders
+*/
+!/.*/
 
 # ignore history files
 .zhistory
@@ -11,3 +9,24 @@
 .gdb_history
 .bash_history
 
+# ignore steam files
+.steampath
+.steampid
+.steam/
+
+# ignore sensitive files
+.git-credentials
+.anyconnect
+
+# ignore bash configuration
+.bash*
+
+# ignore x server configuration
+.Xauthority
+.Xclients
+.Xdefaults
+.Xresources
+
+# ignore device specific configuration
+.nvidia-settings-rc
+.fonts.conf
