@@ -1,0 +1,13 @@
+# ignore everything
+*
+
+# generally include files starting with a dot
+!.*
+
+# ignore history files
+.zhistory
+.python_history
+.node_repl_history
+.gdb_history
+.bash_history
+
